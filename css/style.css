@@ -1,0 +1,346 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+/* CSS Document */
+*
+{
+	margin:0;
+	padding:0;
+}
+body
+{
+	background:#ffffff;
+	font-family:Verdana;
+}
+nav ul li a, h3,h2, .btnSubscribe
+{
+text-transform:uppercase;
+}
+h2
+{ 
+	font-weight:normal;
+ 	font-size:30px;
+}
+p
+{
+	font-family: 'Open Sans', sans-serif;
+}
+ul
+{
+	list-style:none;
+}
+li
+{
+	float:left;
+}
+a
+{
+	text-decoration:none;
+	color:#000;
+}
+.left
+{
+ float:left;
+}
+.right
+{
+ float:right;
+}
+.container
+{
+	width: 1170px;
+	margin:auto;
+}
+.top 
+{
+	border-bottom:1px solid #cccccc;
+	height:41px;
+	box-sizing: border-box;
+}
+.left li
+{
+	border-right: 1px solid #cccccc;
+	padding:10px;
+}
+.right li
+{
+	border-left: 1px solid #cccccc;
+	padding:10px;
+}
+header
+{
+	overflow:hidden;
+	height:auto;
+}
+.logo
+{
+	float:left;
+	padding:20px 0 10px;
+}
+nav
+{
+	float:right;
+}
+
+nav ul
+{
+	padding-top:30px;
+}
+
+nav ul li a
+{
+	padding:20px;
+	color:#006f45;
+	font-size:20px;
+	font-weight:500;
+}
+nav ul li a:hover, .active a
+{
+	background: #006f45;
+	color:#FFF;
+}
+.slider
+{
+	background:url(../images/slide_06.png) no-repeat center; min-height:350px;
+	text-align:center;
+	color:#eee;
+	padding-top:200px;
+	text-shadow:2px 2px 2px #000;
+}
+.slider h1
+{
+	font-size:42px;
+}
+.slider p
+{
+	font-size:16px;
+}
+.readmore
+{
+	padding:10px 20px;
+	border:2px solid #eee;
+	display: inline-block;
+	margin-top:40px;
+}
+.welcome, .contact
+{
+	text-align:center;
+	padding-top:25px;
+	padding-bottom:40px;
+	overflow:hidden;
+}
+.welcome p, .project p, .project-down p
+{
+	padding-top:20px;
+	font-size:14px;
+	line-height:18px;
+}
+.content
+{
+	width:360px;
+	float:left;
+	padding-top:53px;
+	box-sizing: border-box;
+	margin-right:30px;
+}
+.content h1
+{
+	color: #006f45;
+	font-size:140px;
+}
+.content h3, .project h3 ,.project-down h3
+{
+	padding-top:20px;
+	font-size:22px;
+	font-family:Myriad Pro;
+	font-weight:normal;
+}
+.content-btn
+{
+	background: #006f45;
+	color:#FFF;
+	padding:10px 20px;
+	display:inline-block;
+	margin-top:30px;
+}
+.services
+{
+	background:#f5f5f5;
+	text-align:center;
+	overflow:hidden;
+	padding:80px 0px;
+}
+.services h2, .contact h2
+{
+	margin-bottom: 40px;
+}
+.project, .project-down
+{
+	width:285px;
+	height:213px;
+	background:#006f45;
+	color:#FFF;
+	position:relative;
+	float:left;
+	box-sizing:border-box;
+}
+.project::before
+{
+	content:" ";
+	position:absolute;
+	top:40%;
+	right:-15px;
+	width: 1px;
+	border-left: 15px solid #006f45;
+	border-top: 15px solid transparent;
+	border-bottom: 15px solid transparent;
+}
+.project-down::before
+{
+	content:" ";
+	position:absolute;
+	top:40%;
+	left:-15px;
+	width: 1px;
+	border-right: 15px solid #006f45;
+	border-top: 15px solid transparent;
+	border-bottom: 15px solid transparent;
+}
+.project-img
+{
+	width:285px;
+	height:213px;
+	float:left;
+}
+.project-img img
+{
+	width:100%;
+	height:100%;
+}
+.project-btn, .feedback-btn
+{
+	background:#f7ce4f;
+	font-size:14px;
+	color:#FFF;
+	padding:10px 20px;
+	display:inline-block;
+	margin-top:20px;
+}
+
+.subscribe
+{
+	background:#222222;
+	color:#f4f4f4;
+	padding: 40px 20px;
+	overflow:hidden;
+}
+.subscribe h2
+{
+	font-family:Myriad Pro;
+	font-size:25px;
+}
+.subscribe p
+{
+	font-family:Myriad Pro;
+	font-size:14px;
+}
+.btnEmail
+{
+	font-size:16px;
+	padding: 0 20px;
+	height: 50px;
+	width:300px;
+	box-sizing:border-box; 
+	float:left;
+	border-radius:25px 0 0 25px;
+	border:none;
+}
+.btnSubscribe
+{
+	font-size:13px;
+	background:#006f45;
+	box-sizing:border-box; 
+	color:#FFF;
+	height: 50px;
+	width:100px;
+	float:left;
+	border-radius:0 25px 25px 0;
+	border:none;
+}
+footer
+{
+	padding: 10px;
+	background: #222222;
+	color:#999999;
+	font-size:16px;
+	overflow:hidden;
+}
+footer p
+{
+	float:left;
+}
+.menu
+{
+	float:right;
+}
+.menu ul li a
+{
+	padding:10px;
+	color:#999999;
+	
+}
+.menu ul li a:hover
+{
+	color:#006f45;
+}
+.feedback
+{
+	width:580px;
+	float: left;
+	text-align:left;
+}
+.feedback input
+{
+	background:#eeeeee;
+	border:none;
+	padding:10px;
+	width:250px;
+	margin:0 10px 20px 0;
+}
+.feedback textarea
+{
+	background:#eeeeee;
+	border:none;
+	padding: 10px;
+	width:540px;
+	height:160px;
+}
+.direction
+{
+	width:555px;
+	float: right;
+}
+.social i
+{
+	padding:10px 15px;
+	margin:10px 5px;
+	background:#222222;
+	color: #FFF;
+	font-size: 20px;
+	float:left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
